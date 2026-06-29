@@ -67,13 +67,13 @@ Inclusão de operações científicas (raiz, potência, logaritmos)
 Melhor acessibilidade e navegação por teclado
 Animações e feedbacks visuais mais avançados
 
-## Interface do projeto
+### Interface do projeto
 
 <p align="center">
   <img src="printscreen/projeto_calculadora_js_lightmode.png" width="400">
 </p>
 
-## Interface do projeto (modo escuro)
+### Interface do projeto (modo escuro)
 
 <p align="center">
   <img src="printscreen/projeto_calculadora_js_darkmode.png" width="400">
