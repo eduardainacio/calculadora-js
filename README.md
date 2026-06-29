@@ -67,6 +67,18 @@ Inclusão de operações científicas (raiz, potência, logaritmos)
 Melhor acessibilidade e navegação por teclado
 Animações e feedbacks visuais mais avançados
 
+## Interface do projeto
+
+<p align="center">
+  <img src="printscreen/projeto_calculadora_js_lightmode.png" width="400">
+</p>
+
+## Interface do projeto (modo escuro)
+
+<p align="center">
+  <img src="printscreen/projeto_calculadora_js_darkmode.png" width="400">
+</p>
+
 ### Conclusão
 
 Este projeto representa uma aplicação prática de conceitos fundamentais do desenvolvimento front-end, especialmente no que se refere à manipulação de eventos, lógica de estado e interação com o usuário. Ele também serve como base para evoluções mais complexas, podendo ser expandido para uma calculadora científica ou uma aplicação mais robusta com arquitetura modular.
