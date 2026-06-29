@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Histórico -->
+    <aside class="history-panel" id="historyPanel">
+
+        <div class="history-header">
+            <div class="history-title">
+                <h2>Histórico</h2>
+
+                <button id="clearHistory" class="clear-history"><img src="https://img.icons8.com/material-outlined/24/trash--v1.png" alt="trash--v1"/></button>
+            </div>
+
+            <button id="closeHistory" class="close-history"> <img src="https://img.icons8.com/ios-glyphs/30/delete-sign.png" alt="close-sign"/></button>
+        </div>
+
+        <div id="historyList" class="history-list">
+
+            <p class="empty-history"> Nenhuma conta realizada. </p>
+
+        </div>
+
+    </aside>
+
+    <!-- Calculadora -->
+    <main class="calculator">
+
+        <!-- Botão Menu -->
+        <div class="top-buttons">
+
+            <button type="button" id="openHistory" class="menu-btn" aria-label="Abrir histórico">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <button id="themeBtn" class="theme-btn">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+        </div>
+
+        <!-- Display -->
+        <div class="display">
+
+            <div class="expression" id="expression"></div>
+
+            <input type="text" id="result" value="0" readonly>
+
+        </div>
+
+        <div class="buttons"><!-- Botões -->
+
+            <!-- Primeira linha -->
+            <button class="btn clear">CLR</button>
+            <button class="btn delete">DEL</button>
+            <button class="btn operator">%</button>
+            <button class="btn operator">/</button>
+
+            <!-- Segunda -->
+            <button class="btn number">7</button>
+            <button class="btn number">8</button>
+            <button class="btn number">9</button>
+            <button class="btn operator">*</button>
+
+            <!-- Terceira -->
+            <button class="btn number">4</button>
+            <button class="btn number">5</button>
+            <button class="btn number">6</button>
+            <button class="btn operator">-</button>
+
+            <!-- Quarta -->
+            <button class="btn number">1</button>
+            <button class="btn number">2</button>
+            <button class="btn number">3</button>
+            <button class="btn operator">+</button>
+
+            <!-- Quinta -->
+            <button class="btn number">.</button>
+            <button class="btn number">0</button>
+            <button class="equal">=</button>
+        </div>
+    </main>
+
+    <!-- Modal de confirmação -->
+
+<div id="confirmModal" class="modal">
+
+    <div class="modal-content">
+
+        <h3>Limpar histórico?</h3>
+
+        <p>
+            Esta ação removerá todas as contas realizadas.
+            Deseja continuar?
+        </p>
+
+        <div class="modal-buttons">
+
+            <button id="cancelDelete" class="cancel-btn">
+                Cancelar
+            </button>
+
+            <button id="confirmDelete" class="confirm-btn">
+                Confirmar
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
